@@ -24,7 +24,7 @@ Set-VMProcessor -VMName <VMName> -ExposeVirtualizationExtensions $true
 嵌套虚拟化影响性能，因此在环境中务必使用SSD/NVME。
 
 
-> 注意：Set-VMProcessor 是 Hyper-V module 的命令，执行命令前，请确保服务器roles and features已安装Hyper-V
+> 注意：Set-VMProcessor 是 Hyper-V module 的命令，执行命令前，请确保服务器roles and features已安装Hyper-V (详细过程见 部署 章节)
 > 
 > -VMName <VMName>  中的VMName指 Hyper-V 中的虚拟机Name。
 >
