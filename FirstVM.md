@@ -25,6 +25,7 @@
 ![image](.gitbook/assets/20210706105025.png)
 
 来到安装选项页面，选择`从可启动的映像文件安装操作系统`，通过`浏览`，加载准备好的`Windows Server 2019`介质。点击“下一步”继续。
+
 下载试用版的地址：https://www.microsoft.com/en-US/evalcenter/evaluate-windows-server-2019?filetype=ISO
 
 ![image](.gitbook/assets/20210706105236.png)
