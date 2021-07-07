@@ -55,7 +55,7 @@ Active Directory是一个重要的角色，牵扯到的应用过多，此处不�
 
 等待虚拟机自动重启后，如登录界面变成如下形态，即表示安装成功
 
-输入账号`contoso\administrator`，密码`poc.123`进行登录。
+输入账号`contoso\administrator`，密码`之前的本地管理员密码`进行登录，后续改成`poc.123`。
 
 <img src=".gitbook/assets/20210706121025.png" alt="image" style="zoom:50%;" />
 
