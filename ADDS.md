@@ -17,6 +17,8 @@
 
 Active Directory是一个重要的角色，牵扯到的应用过多，此处不进行扩展。在SDDC体系中，Active Directory提供整个环境的账号认证实现，且`唯一不可替代`。
 
+开启Hyper-V的增强会话：打开Hyper-V Manager，右侧点击Hyper-V Setting，勾选中“允许增强会话”。
+
 使用下述方法，打开`管理员的PowerShell`（下文多数情况下指的是以`管理员方式打开Winows PowerShell ISE`）
 
  - 点击左下角开始键，找到Winows PowerShell ISE
