@@ -32,6 +32,8 @@
 
 由于现阶段SQL Server的介质，根据产品类型不同，已经预置了序列号，因此只要是合法获取的介质，不需要管序列号的问题，这里会默认自动加载。点击`下一步`继续。
 
+试用：https://www.microsoft.com/en-us/evalcenter/evaluate-sql-server-2019?filetype=EXE
+
 <img src=".gitbook/assets/20210706163111.png" alt="image" style="zoom:67%;" />
 
 一直点击下一步，直至如下界面。期间由于没有互联网，会有`update失败`、以及`.net应用安全性警告`，全部忽略。
