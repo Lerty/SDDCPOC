@@ -8,6 +8,26 @@
 | -------------- | ------------ | ----------- | ------------- | ----------- | ----------- | ---- | ---- | ------------------- |
 | POC-SQL01      | 数据库服务器 | 192.148.0.4 | 255.255.255.0 | 192.148.0.2 | 192.148.0.1 | 2    | 2G   | 至少20G，不足请扩容 |
 
+## Hyper-V 添加数据磁盘
+
+![微信图片_20210709145932](https://user-images.githubusercontent.com/17094974/125037082-4fafcd80-e0c6-11eb-81d2-b3a8bcb3c71d.png)
+
+Hyper-V挂载新盘之后，在Windows server内需要将磁盘联机和初始化
+
+管理员运行：cmd
+```cmd
+DISKPART.exe
+DISKPART> san
+DISKPART> san policy=onlineall
+DISKPART> list disk
+DISKPART> select disk 1
+DISKPART> attributes disk clear readonly
+DISKPART> online disk
+```
+重新打开`创建格式化和分区`，会自动提示进行磁盘初始化
+![微信图片_20210709150329](https://user-images.githubusercontent.com/17094974/125037549-dbc1f500-e0c6-11eb-9072-c3ed60cc3978.png)
+
+
 ## 配置本地管理员
 
 将`sqladmins`配置为`POC-SQL01`的本地管理员。操作请参考`账号体系约定`
